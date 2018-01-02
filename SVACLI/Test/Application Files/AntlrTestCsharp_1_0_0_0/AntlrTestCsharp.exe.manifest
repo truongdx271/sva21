@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AntlrTestCsharp.exe" version="1.0.0.0" publicKeyToken="b5547a82797e509e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AntlrTestCsharp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AntlrTestCsharp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Antlr4.Runtime.Standard.dll" size="231936">
+      <assemblyIdentity name="Antlr4.Runtime.Standard" version="4.7.0.0" publicKeyToken="E78B2C5ABD1FCB3F" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fzIMLfKp8Xh8jfmtVf6GkveYiud9cttOjA03or+VYaM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AntlrTestCsharp.exe" size="448448">
+      <assemblyIdentity name="AntlrTestCsharp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ye8RNLPMDw2xIr9lqKiFqrJDBcHRPWrw0qgyo4111xA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AntlrTestCsharp.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DUYBUIA9ED\dbui" issuerKeyHash="7d07f054dbfc6ec976502443e4929b280b2649d7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xfao2x6gyQz6G0STV/7jTMPMvYsWlweNFDEOLDFwfbw=</DigestValue></Reference></SignedInfo><SignatureValue>G9BGiHi0y6oHraRv+u31w+cUNlT1uL5dq4VHQ+B555WB0ijRSQ+xe9jvHfuvA48PommBY+pC+At/DNvuWyf8JXbvtwzBET0S0aP/laEK2oTDVIv8gRKlSfaqB7NrsrmYg7DBStOuSsSeuyKaUkvvh1O2m4cDp0JzOoxMFpTrEhY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nzvqlYowdYQfmNHxOq2tnO71VzwmRLi+TnEB8On5dNSWIMDWksr+a+2EiZXK9+XtGpDt5oy3mW5Y//IGcp+YdLvEOOdNIyya5cWgMSPPrWwhFVjk0Ahhoiuk7JCzGBC3VBFEDcGdSEv6GvnqBldOfmvnGgYxhtqYG2MLsukw2B8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bc7d70312c0e31148d0797168bbdccc34ce3fe5793441bfa0cc9a01edba8f6c5" Description="" Url=""><as:assemblyIdentity name="AntlrTestCsharp.exe" version="1.0.0.0" publicKeyToken="b5547a82797e509e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DUYBUIA9ED\dbui</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NEWenPrsff+4I1tTYsw+6x9aGlpN+qxTj+m7L7aEj/E=</DigestValue></Reference></SignedInfo><SignatureValue>anILGnjQWAR1EQ39hQPfLS6CAB3dR8QlvSPPMoj+fX63c87mOSOuQGseq46UAJrk6kuFBA3KWErUWxkPdD6C8ISKVpvfRULrUMPh2O8OplfuE8jH4m5mEyeTXr4u6T3OStw/UUolSTLJm+bLvJ5IyvmySocR697cvKRI7cXO4VI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nzvqlYowdYQfmNHxOq2tnO71VzwmRLi+TnEB8On5dNSWIMDWksr+a+2EiZXK9+XtGpDt5oy3mW5Y//IGcp+YdLvEOOdNIyya5cWgMSPPrWwhFVjk0Ahhoiuk7JCzGBC3VBFEDcGdSEv6GvnqBldOfmvnGgYxhtqYG2MLsukw2B8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQNGBowqM3w5RIBJRq3ahXuTANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4ARABVAFkAQgBVAEkAQQA5AEUARABcAGQAYgB1AGkwHhcNMTcxMTI5MDY1MzE3WhcNMTgxMTI5MTI1MzE3WjApMScwJQYDVQQDHh4ARABVAFkAQgBVAEkAQQA5AEUARABcAGQAYgB1AGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ876pWKMHWEH5jR8TqtrZzu9Vc8JkS4vk5xAfDp+XTUliDA1pLK/mvthImVyvfl7RqQ7eaMt5luWP/yBnKfmHS7xDjnTSMsmuXFoDEjz61sIRVY5NAIYaIrpOyQsxgQt1QRRA3BnUhL+hr56gZXTn5r5xoGMYbamBtjC7LpMNgfAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAWCl+Tbb5AM9b+iE59L4AQegvTzzA9Be1lSJ5zmIcBQysUv5c1hDZMBLmPwNkUvWtC4bgxnaIghRpHdYnmXNCuLcpnKXHFtoH32UaejVVeGxLqL6WwlLbcZVN0uR0BSqn43vgMM/G4Cl+nDp8HTzpqpLwHRaKQJ8KebmU/vYzFXk=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
